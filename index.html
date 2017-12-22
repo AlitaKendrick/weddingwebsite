@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	
 	<title>Alita and Connor's Wedding</title>
 	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> <!-- bootstrap link -->
@@ -9,38 +10,75 @@
 	
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-</head>
 
-<body>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <div class="container"> 
 
-<h1> Connor and Alita's Wedding</h1>
 
-<!-- jumbotron code -->
-  <div class="jumbotron jumbotron-fluid">
-    <h1 class="display-3">Insert photo background</h1>
-    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-  </div> <!-- closing jumbotron div  -->
+  <div class="header">
+  	<nav class="nav">
+	  <a class="nav-link" href="#ourStory">Our Story</a>
+	  <a class="nav-link" href="#weddingDetails">Wedding Details</a>
+	  <a class="nav-link" href="#theRegistry">Registry</a>
+	  <a class="nav-link" href="#ourPeople">People</a>
+	</nav>
 
-  <div class="details">
-	<h2>The big day</h2>
-	<p> enter date/time/location/directions details </p>
+	<center><img src="css/images/conpeep.png"></center>
+	<!-- header photo image -->
+
+	<!-- insert scroll nav -->
+
+	<center>
+	<iframe src="http://free.timeanddate.com/countdown/i61aqruu/n64/cf12/cm0/cu4/ct0/cs0/ca0/co0/cr0/ss0/cac9fc2d2/cpc000/pcfff/tcfff/fs175/szw320/szh135/iso2018-08-04T15:00:00" allowTransparency="true" frameborder="0" width="216" height="51"></iframe> <!-- countdown  -->
+	</center>
+  </div>
+
+
+<!--   <div class="main"> -->
+
+  <div id="ourStory" className="col-md-12">
+	<h2>Our Story</h2>
+
+	<div class="row">
+	  <div class="col-md-6">
+	  	<h3> connor </h3>
+	  	<img src="">
+	  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed est dolor, imperdiet sed mattis et, pharetra sed diam. In vulputate odio nisi, non tempus lorem semper a. Donec eu hendrerit ligula, id ullamcorper nibh. Vestibulum interdum diam neque, non venenatis ligula dignissim a. Aenean pulvinar nec mauris non laoreet. Integer imperdiet luctus auctor. Integer id euismod massa. Donec tempus odio nibh, eu tempus turpis bibendum sed.</p>
+	  </div>
+	  <div class="col-md-6">
+	  	<h3>alita</h3>
+	  	<img src="">
+	  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed est dolor, imperdiet sed mattis et, pharetra sed diam. In vulputate odio nisi, non tempus lorem semper a. Donec eu hendrerit ligula, id ullamcorper nibh. Vestibulum interdum diam neque, non venenatis ligula dignissim a. Aenean pulvinar nec mauris non laoreet. Integer imperdiet luctus auctor. Integer id euismod massa. Donec tempus odio nibh, eu tempus turpis bibendum sed.</p>
+	  </div>
+	</div>
+	<!-- insert mini profiles for connor + alita, add our story graphic -->
+  
   </div> <!-- closing details div -->
 
-  <div class="rsvp">
-	<h2>RSVP</h2>
-	<p>Please check your email for invitations containing rsvp information. If you have any questions please contact Connor or Alita.</p>
+
+  <div id="weddingDetails">
+	<h2>The big day</h2>
+	<!-- insert two boot strap columns with wedding ceremony and reception details -->
+
   </div> <!-- closing rsvp div -->
 
-  <div class="registry">
+  <div id="theRegistry">
 	<h2>Registry</h2>
-	<p>Details to give to honeymoon fund. We are also registered at Amazon; insert link for registry.</p>
+	<!-- insert honeymoon + amazon registry details -->
   </div> <!-- closing registry div -->
 
+
+  <div id="ourPeople">
+  	<h2>Our People</h2>
+  	<!-- insert groomsmen and bridesmaid details -->
+  </div> <!-- closing people div -->
+
+<!--   </div> --> <!-- closing main div -->
 	
+
 </div> <!-- closing container div -->
 
 </body>
-
 </html>

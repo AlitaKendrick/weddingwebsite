@@ -1,11 +1,19 @@
 body {
-	background-color: #9fc2d2;
+/*	background-color: #9fc2d2;*/
+/*	background-image: url('images/hydrangea2.jpg');*/
 }
 
-h1 {
-	font-family: 'Alex Brush', cursive;
+h2 {
+/*	font-family: 'Alex Brush', cursive;
+	font-size: 40px;*/
 }
 
 p {
-	font-family: 'Georgia';
+/*	font-family: 'Georgia';*/
 }
+
+body {
+  position: relative;
+}
+
+
